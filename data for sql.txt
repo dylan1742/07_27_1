@@ -1,3 +1,5 @@
+Syntax error in SQL statement "INSERT INTO Trades (id,book_id,security_id,counterparty_id,currency,[*]''status'',quantity,unit_price,buy_sell,trade_date,settlement_date) VALUES (1,1,1,1,'USD','open',50,90,'buy','2021-05-13','2021-08-04')"; expected "identifier";
+
 
 -- --  ***  EXAMPLE DATA  ***
 
