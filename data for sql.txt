@@ -1,3 +1,56 @@
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: C:\Final Project\FinalProject\react-app\src\components\TradeButton.js: Identifier 'TradeButton' has already been declared. (13:6)
+
+  11 | `;
+  12 |
+> 13 | const TradeButton = () => {
+     |       ^
+  14 |   return (
+  15 |       <button>Click to Trade</button>
+  16 | 	    );
+    at instantiate (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:63:32)
+    at constructor (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:358:12)
+    at FlowParserMixin.raise (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:3255:19)
+    at FlowScopeHandler.checkRedeclarationInScope (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:1528:19)
+    at FlowScopeHandler.declareName (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:1499:12)
+    at FlowScopeHandler.declareName (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:1595:11)
+    at FlowParserMixin.declareNameFromIdentifier (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:7511:16)
+    at FlowParserMixin.checkIdentifier (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:7507:12)
+    at FlowParserMixin.checkLVal (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:7446:12)
+    at FlowParserMixin.parseVarId (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:13278:10)
+    at FlowParserMixin.parseVarId (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:5718:11)
+    at FlowParserMixin.parseVar (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:13256:12)
+    at FlowParserMixin.parseVarStatement (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:13096:10)
+    at FlowParserMixin.parseStatementContent (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:12679:23)
+    at FlowParserMixin.parseStatementLike (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:12584:17)
+    at FlowParserMixin.parseStatementLike (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:5130:24)
+    at FlowParserMixin.parseModuleItem (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:12561:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:13185:36)
+    at FlowParserMixin.parseBlockBody (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:13178:10)
+    at FlowParserMixin.parseProgram (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:12460:10)
+    at FlowParserMixin.parseTopLevel (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:12450:25)
+    at FlowParserMixin.parseTopLevel (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:5935:28)
+    at FlowParserMixin.parse (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:14347:10)
+    at parse (C:\Final Project\FinalProject\react-app\node_modules\@babel\parser\lib\index.js:14388:38)
+    at parser (C:\Final Project\FinalProject\react-app\node_modules\@babel\core\lib\parser\index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (C:\Final Project\FinalProject\react-app\node_modules\@babel\core\lib\transformation\normalize-file.js:64:38)
+    at normalizeFile.next (<anonymous>)
+    at run (C:\Final Project\FinalProject\react-app\node_modules\@babel\core\lib\transformation\index.js:21:50)
+    at run.next (<anonymous>)
+    at transform (C:\Final Project\FinalProject\react-app\node_modules\@babel\core\lib\transform.js:22:41)
+    at transform.next (<anonymous>)
+    at step (C:\Final Project\FinalProject\react-app\node_modules\gensync\index.js:261:32)
+    at C:\Final Project\FinalProject\react-app\node_modules\gensync\index.js:273:13
+    at async.call.result.err.err (C:\Final Project\FinalProject\react-app\node_modules\gensync\index.js:223:11)
+ERROR
+[eslint] 
+src\components\TradeButton.js
+  Line 13:6:  Parsing error: Identifier 'TradeButton' has already been declared. (13:6)
+
+
+
+
 const StyledButton = styled.button`
   background-color: #007bff;
   color: #fff;
