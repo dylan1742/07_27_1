@@ -1,4 +1,15 @@
-  @Query(nativeQuery = true, value = "INSERT INTO Security(id,isin,bond_holder,cusip,issuer_name,maturity_date,coupon,type,face_value,currency,status) VALUES (DATA HERE)")
+const StyledButton = styled.button`
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+`;
+
+
+
+@Query(nativeQuery = true, value = "INSERT INTO Security(id,isin,bond_holder,cusip,issuer_name,maturity_date,coupon,type,face_value,currency,status) VALUES (DATA HERE)")
     List<Security> getRecenSecurities();
 
 
