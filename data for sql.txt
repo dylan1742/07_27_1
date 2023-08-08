@@ -8,6 +8,11 @@ const StyledButton = styled.button`
 `;
 
 
+ERROR in ./src/components/ExpiringSecurities.jsx 192:44-55
+export 'TradeButton' (imported as 'TradeButton') was not found in '../components/TradeButton' (possible exports: default)
+ERROR in ./src/components/ExpiringSecurities.jsx 196:27-38
+export 'TradeButton' (imported as 'TradeButton') was not found in '../components/TradeButton' (possible exports: default)
+
 
 @Query(nativeQuery = true, value = "INSERT INTO Security(id,isin,bond_holder,cusip,issuer_name,maturity_date,coupon,type,face_value,currency,status) VALUES (DATA HERE)")
     List<Security> getRecenSecurities();
