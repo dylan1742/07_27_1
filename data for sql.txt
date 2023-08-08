@@ -1,3 +1,16 @@
+ERROR in ./src/components/ExpiringSecurities.jsx 192:44-55
+export 'TradeButton' (imported as 'TradeButton') was not found in '../components/TradeButton' (possible exports: default)
+ERROR in ./src/components/ExpiringSecurities.jsx 196:27-38
+export 'TradeButton' (imported as 'TradeButton') was not found in '../components/TradeButton' (possible exports: default)
+ERROR
+[eslint] 
+src\components\TradeButton.js
+  Line 3:22:  'styled' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+
+
 Module build failed (from ./node_modules/babel-loader/lib/index.js):
 SyntaxError: C:\Final Project\FinalProject\react-app\src\components\TradeButton.js: Identifier 'TradeButton' has already been declared. (13:6)
 
